@@ -1,0 +1,10 @@
+.advice-container {
+  background: var(--color-dark-grayish-blue);
+  padding: 1.5em;
+  border-radius: 0.535em;
+  max-width: 19.28em;
+}
+
+.error-state {
+  color: red;
+}

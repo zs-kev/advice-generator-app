@@ -1,0 +1,11 @@
+.advice h1 {
+  color: var(--color-neon-green);
+  font-size: 0.464rem;
+  text-transform: uppercase;
+  letter-spacing: 0.146em;
+}
+
+.advice p {
+  font-size: 1rem;
+  letter-spacing: -0.011em;
+}

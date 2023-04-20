@@ -3,8 +3,15 @@
   padding: 1.5em;
   border-radius: 0.535em;
   max-width: 19.28em;
+  box-shadow: 30px 50px 80px 0px rgba(0,0,0,0.102);
+  position: relative;
 }
 
 .error-state {
   color: red;
+}
+
+.divider {
+  margin: 0 auto;
+  padding: 1.429em 0;
 }

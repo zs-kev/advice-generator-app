@@ -25,10 +25,13 @@ function App() {
         </p>
       )}
       <picture>
-        <source srcSet={DividerMobile} media="(max-width: 583px)" />
+        <source srcSet={DividerMobile} media="(max-width: 500px)" />
         <img className="divider" src={DividerDesktop} alt="divider" />
       </picture>
-      <AdviceGeneratorButton newAdvice={getAdvice.handleClick} />
+      <AdviceGeneratorButton
+        newAdvice={getAdvice.handleClick}
+        appState={getAdvice.status}
+      />
     </div>
   );
 }

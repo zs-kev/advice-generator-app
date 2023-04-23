@@ -20,7 +20,7 @@
 
 .divider {
   margin: 0 auto;
-  padding: 1.429em 0;
+  padding: 1.429em 0 1em 0;
 }
 
 @media (max-width: 580px) {

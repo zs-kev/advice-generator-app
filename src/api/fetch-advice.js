@@ -11,8 +11,10 @@ export function FetchAdvice() {
       setStatus('loading');
       const response = await fetch(url);
       const json = await response.json();
-      setAdvice(json);
-      setStatus('success');
+      setTimeout(() => {
+        setAdvice(json);
+        setStatus('success');
+      }, 2000);
     } catch (error) {
       setStatus('error');
     }
